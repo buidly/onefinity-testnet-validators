@@ -17,5 +17,9 @@ curl -o onefinity-utils/termui https://onefinity.fra1.digitaloceanspaces.com/ter
 curl -o onefinity/node https://onefinity.fra1.digitaloceanspaces.com/node
 curl -o go-onefinity.tar.gz https://onefinity.fra1.digitaloceanspaces.com/onefinity-go.tar.gz
 
+# Make the downloaded files executable
+chmod +x onefinity-utils/keygenerator
+chmod +x onefinity-utils/termui
+chmod +x onefinity/node
 
 echo "Downloads complete!"

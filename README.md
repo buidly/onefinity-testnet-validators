@@ -105,26 +105,38 @@ Follow the commands below to start a Onefinity validator node with the configura
 ### Single Key Validator
 
 ```bash
-./node --port 21501 --profile-mode --log-save --log-level *:DEBUG --log-logger-name --log-correlation 
---use-health-service 
---rest-api-interface localhost:9501 
---sk-index 1 
---working-directory ~/working-dir/validator 
---config-external ./config/external_validator.toml 
---config ./config/config_validator.toml
---validator-key-pem-file ./config/validatorKey.pem
+./node \
+  --port 21501 \
+  --profile-mode \
+  --log-save \
+  --log-level "*:DEBUG" \
+  --log-logger-name \
+  --log-correlation \
+  --use-health-service \
+  --rest-api-interface "localhost:9501" \
+  --sk-index 1 \
+  --working-directory "~/working-dir/validator" \
+  --config-external "./config/external_validator.toml" \
+  --config "./config/config_validator.toml" \
+  --validator-key-pem-file "./config/validatorKey.pem"
 ```
 ### Multi-Key Validator
 
 ```bash
-./node --port 21501 --profile-mode --log-save --log-level *:DEBUG --log-logger-name --log-correlation 
---use-health-service 
---rest-api-interface localhost:9501 
---sk-index 1 
---working-directory ~/working-dir/validator 
---config-external ./config/external_validator.toml 
---config ./config/config_validator.toml
---all-validator-keys-pem-file ./config/allValidatorsKey.pem
+./node \
+  --port 21501 \
+  --profile-mode \
+  --log-save \
+  --log-level "*:DEBUG" \
+  --log-logger-name \
+  --log-correlation \
+  --use-health-service \
+  --rest-api-interface "localhost:9501" \
+  --sk-index 1 \
+  --working-directory "~/working-dir/validator" \
+  --config-external "./config/external_validator.toml" \
+  --config "./config/config_validator.toml" \
+  --all-validator-keys-pem-file ./config/allValidatorsKey.pem
 ```
 ### Observer 
 
