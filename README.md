@@ -143,7 +143,7 @@ Follow the commands below to start a Onefinity validator node with the configura
 ### Observer 
 
 ```
-./node --port 21501 --profile-mode --log-save --log-level *:DEBUG --log-logger-name --log-correlation --use-health-service --rest-api-interface localhost:8080 --working-directory ~/working-dir --config-external ./config/external_validator.toml --config ./config/config_validator.toml
+./node --port 21501 --profile-mode --log-save --log-level *:INFO --log-logger-name --log-correlation --use-health-service --rest-api-interface localhost:8080 --working-directory ~/working-dir --config-external ./config/external_observer.toml --config ./config/config_observer.toml
 ```
 ---
 
