@@ -61,8 +61,10 @@ libwasmer_linux_amd64.so => not found
 
 Find path of 
 
+```bash
 buidly/mx-evm-chain-vm-go@v0.0.0-20241218192919-285df70148f7/wasmer2/libvmexeccapi.so
 buidly/mx-evm-chain-vm-go@v0.0.0-20241218192919-285df70148f7/wasmer/libwasmer_linux_amd64.so
+```
 
 Copy (or Symlink) Libraries to a Standard Path
 
@@ -185,7 +187,7 @@ mxpy validator stake \
 
 ## How to unstake a Validator Node After Genesis
 
-```
+```bash
 mxpy validator unstake \
   --pem=walletKey.pem \
   --nodes-public-keys address \
@@ -193,7 +195,6 @@ mxpy validator unstake \
   --gas-limit 6000000 \
   --recall-nonce \
   --send
-```
 ```
 ---
 
