@@ -108,7 +108,6 @@ Follow the commands below to start a Onefinity validator node with the configura
 
 ```bash
 ./node \
-  --port 21501 \
   --profile-mode \
   --log-save \
   --log-level "*:DEBUG" \
@@ -116,7 +115,6 @@ Follow the commands below to start a Onefinity validator node with the configura
   --log-correlation \
   --use-health-service \
   --rest-api-interface "localhost:9501" \
-  --sk-index 1 \
   --working-directory "~/working-dir/validator" \
   --config-external "./config/external_validator.toml" \
   --config "./config/config_validator.toml" \
@@ -126,7 +124,6 @@ Follow the commands below to start a Onefinity validator node with the configura
 
 ```bash
 ./node \
-  --port 21501 \
   --profile-mode \
   --log-save \
   --log-level "*:DEBUG" \
