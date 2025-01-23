@@ -8,6 +8,7 @@ This repository contains the necessary tools and instructions to deploy Onefinit
 ---
 
 ## Contents
+- [Supported Operating Systems](#supported-operating-systems)
 - [Download Binaries](#download-binaries)
 - [Setup go](#go)
 - [Onefinity Validator Setup](#Onefinity-validator-setup)
@@ -17,6 +18,12 @@ This repository contains the necessary tools and instructions to deploy Onefinit
 - [Configure `mxpy` Address HRP](#configure-mxpy-address-hrp)
 - [How to Add a New Validator Node After Genesis](#how-to-add-a-new-validator-node-after-genesis)
 - [Usefull links](#chain-links)
+
+---
+
+## Supported Operating Systems
+
+The setup and configuration steps outlined in this documentation have been tested on Ubuntu 22.04 LTS and above. While other Linux distributions may work, they are not officially supported or tested.
 
 ---
 
