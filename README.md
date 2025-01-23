@@ -176,7 +176,7 @@ mxpy validator stake \
   --value="2500000000000000000000" \
   --validators-file=validator.json \
   --proxy="https://gateway.validators.onefinity.network" \
-  --gas-limit 6000000 \
+  --gas-limit 25000000 \
   --recall-nonce \
   --send
 ```
@@ -189,7 +189,7 @@ mxpy validator unstake \
   --pem=walletKey.pem \
   --nodes-public-keys address \
   --proxy="https://gateway.validators.onefinity.network" \
-  --gas-limit 6000000 \
+  --gas-limit 25000000 \
   --recall-nonce \
   --send
 ```
