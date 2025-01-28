@@ -17,6 +17,7 @@ This repository contains the necessary tools and instructions to deploy Onefinit
 - [Install mxpy](#install-mxpy)
 - [Configure `mxpy` Address HRP](#configure-mxpy-address-hrp)
 - [How to Add a New Validator Node After Genesis](#how-to-add-a-new-validator-node-after-genesis)
+- [How to unjail a node](#unjail)
 - [Usefull links](#chain-links)
 
 ---
@@ -201,6 +202,19 @@ mxpy validator unstake \
   --send
 ```
 ---
+
+## How to unjail a Validator
+
+```bash
+mxpy validator unjail \
+  --pem=config/walletKey.pem \
+  --value="2500000000000000000" \
+  --nodes-public-keys address \ 
+  --proxy="https://gateway.validators.onefinity.network" \
+  --gas-limit 25000000 \
+  --recall-nonce \
+  --send
+```
 
 ## Chain links
 
